@@ -1,0 +1,150 @@
+#container{
+	width: 1080px;
+	margin:0 auto;
+}
+
+body{
+	background: #f4f2ec url(img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#logo a{
+	width: 248px;
+	height: 21px;
+	text-indent:-9999px;
+	display: block;
+	background: url(img/logo.png) no-repeat;
+  margin: 40px 0px ;
+
+}
+
+a:hover{
+	color: #227115;
+}
+
+nav ul{
+	list-style: none;
+	margin: 10px;
+	float:right;
+	margin-right: 1px;
+}
+
+nav ul li{
+	display:inline-block;
+	font-size: 20px;
+}
+
+nav ul li a:link{
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #535858; 
+}
+
+a:link, a:active, a:visited{
+	color:#af670a;
+	text-transform: none;
+}
+
+#conteudo{
+	width: 710px;
+	float: left;
+	background: #af670a;
+
+  box-shadow: 0px 40px 40px 0px #af670a;
+}
+
+aside{
+	width: 350px;
+	float: right;
+	background: #ebe7dd;
+	padding-bottom: 30px;
+}
+
+section#visita{
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 110px #af670a;
+}
+
+input{
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border:none;
+	font-size: 1em;
+}
+
+input.campo{
+	border: 1px solid #ada484;
+
+}
+
+input.botao{
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+section#galeria{
+	padding: 0 27px 0 27px;
+
+}
+
+section#galeria a{
+	display: block;
+	background: url(img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+
+}
+
+section#galeria img{
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0px;
+
+}
+
+.sobre {
+  width: 700px;
+	height: 544px;
+	font-size: 18px;
+	text-align: justify;
+	display: inline-block;
+	line-height: 2.0;
+}
+
+.video {
+	box-shadow: 0px 0px 40px #af670a;
+	display: flexbox;
+}
+
+.map {
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 100px;
+	
+}
+
+footer p {
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
